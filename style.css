@@ -1,0 +1,186 @@
+body {
+  font-family: 'roboto', sans-serif;
+  background-color: #f5f5f5;
+}
+
+table {
+  width: 30rem;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 16rem;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+.container-input {
+  display: flex;
+  flex-direction: column;
+  width: 10.2rem;
+  margin: 0 auto;
+}
+.label {
+  font-weight: 400;
+  font-size: 1rem;
+}
+h1 {
+  font-weight: 400;
+  color: rgb(55, 55, 55);
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.input-container {
+  width: 15rem;
+}
+
+#search-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.illustration {
+  width: 14rem;
+  display: block;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.input {
+  padding: 0.4rem;
+  width: 8.6rem;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.model-details {
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+td {
+  padding: 5px;
+  border: 1px solid #ccc;
+  width: 18rem;
+}
+
+.key {
+  font-weight: bold;
+  text-transform: capitalize;
+  width: 18rem;
+}
+
+.value {
+  text-align: left;
+}
+
+.label-make {
+  border-radius: 70px;
+}
+
+.year {
+  background-color: #e5e5e5;
+}
+#car-make,
+#car-model,
+#car-year {
+  margin: 0.4rem;
+}
+#car-make::placeholder,
+#car-model::placeholder,
+#car-year::placeholder {
+  font-size: 0.8rem;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 1rem;
+}
+.note {
+  padding: 2rem;
+  /* display: flex;
+  justify-content: center; */
+  font-size: 1rem;
+  color: rgb(36, 36, 36);
+  width: 42rem;
+  margin: auto;
+}
+
+@media only screen and (max-width: 480px) {
+  /* CSS styles for phones */
+  .container {
+    width: 75%;
+    margin-top: 3rem;
+  }
+  .illustration {
+    width: 16rem;
+  }
+  td {
+    /* width: 14rem; */
+  }
+  #car-make,
+  #car-model,
+  #car-year {
+    margin: 0rem;
+  }
+  .tablee {
+    width: 22rem;
+  }
+  .container-input {
+    /* flex-direction: column; */
+    align-items: center;
+  }
+  input {
+    /* margin-bottom: 10px; */
+  }
+  .note {
+    padding: 0rem;
+    width: 20rem;
+  }
+  .note-container {
+    width: 21rem;
+    margin: auto;
+  }
+  .model-details {
+    width: 10rem;
+  }
+  .table {
+    width: 24rem;
+  }
+  #search-button {
+    width: 7rem;
+    font-size: 1.1rem;
+    padding: 0.6rem;
+    margin-top: 0.6rem;
+  }
+}

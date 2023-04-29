@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CarQuery API Example</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo-container">
+        <h1>CarQuery</h1>
+        <img class="illustration" src="illustration.png" alt="CarQuery logo" />
+      </div>
+      <div class="container-input">
+        <label class="label" for="car-make">Enter Car Make:</label>
+        <input
+          class="input"
+          type="text"
+          id="car-make"
+          placeholder="ex:mercedes-benz"
+        />
+        <br />
+        <label class="label" for="car-model">Enter Car Model:</label>
+        <input class="input" type="text" id="car-model" placeholder="C" />
+        <br />
+        <label class="label" for="car-year">Enter Car Year:</label>
+        <input
+          class="input"
+          type="text"
+          id="car-year"
+          placeholder="optional*"
+        />
+        <br />
+        <button id="search-button">Search</button>
+      </div>
+    </div>
+    <div class="note-container">
+      <p class="note">
+        Note:) Please keep in mind that this website is uses a free API service
+        and may have some limitations It is possible that you maynot find every
+        vehicle you are looking for in the database.
+      </p>
+    </div>
+
+    <div id="model-details" style="display: none">
+      <div id="model-details-content"></div>
+    </div>
+  </body>
+</html>
+
+<!-- cea buna mai sus  -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CarQuery</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo-container">
+        <h1>CarQuery</h1>
+        <img class="illustration" src="illustration.png" alt="CarQuery logo" />
+      </div>
+      <div class="input-container">
+        <label for="car-make">Car Make:</label>
+        <input type="text" id="car-make" />
+      </div>
+      
+      <div class="input-container">
+        <label for="car-trim">Car Trim:</label>
+        <input type="text" id="car-trim" />
+      </div>
+      <button id="search-button">Search</button>
+    </div>
+    <div id="model-details" style="display: none">
+      <h2>Model Details:</h2>
+      <pre id="model-details-content"></pre>
+    </div>
+  </body>
+</html> -->
